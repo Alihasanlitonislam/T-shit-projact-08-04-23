@@ -11,6 +11,7 @@ import Orders from './companent/Orders/Orders';
 import About from './companent/About/About';
 import Contact from './companent/Contact/Contact';
 import Review from './companent/Review/Review';
+import Ground from './contaxtAmdUseContaxt/Grounde/Ground';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: 'review',
         element: <Review/>
+      },
+      {
+        path: 'grandpa',
+        element: <Ground/>
       },
       {
         path: 'about',
